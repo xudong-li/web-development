@@ -1,2 +1,2 @@
 # web-development
-This is just a demo.
+A series of web development projects based on online courses and self-interests.
