@@ -1,0 +1,88 @@
+#container {
+	width: 360px;
+	margin: 100px auto;
+	background: #F7F7F7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.fa-plus{
+	float: right;
+}
+
+h1 {
+	background: #2980B9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  	background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  	background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  	background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  	background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	font-size: 18px;
+	color: #2980B9;
+	background-color: white;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);   /*make the border around the input goes away*/
+}
+
+input:focus{
+	background: white;
+	border: 3px solid #2980B9;
+	outline: none;
+	color: #2980B9;
+}
+
+input::placeholder {
+  color: #DCDCDC;
+}
+
+li {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+}
+
+li:nth-child(2n-1) {
+	background: #F7F7F7;
+}
+
+span{
+	background: #E74C3C;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
