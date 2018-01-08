@@ -1,7 +1,7 @@
 # web-development
 A series of web development projects based on online courses and self-interests.
 
-### 1.YelpCamp
+### 1. YelpCamp
 A dynamic website that let users to post and comment their favorite campgrounds. 
 The development is inspired by Colt Steele's The Web Developer Bootcamp on Udemy.
 
