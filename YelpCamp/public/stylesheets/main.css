@@ -1,0 +1,26 @@
+/*.thumbnail{        */
+/*    width : 100%;*/
+/*    height: 270px;*/
+/*}*/
+
+/*.thumbnail img{*/
+/*    width: 100%;*/
+/*    height: 150px;*/
+/*    display: block;*/
+/*}*/
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#preview {
+    height: 170px;
+}
+
+.delete-form {
+    display: inline;
+}
